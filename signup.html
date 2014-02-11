@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700" rel="stylesheet" type="text/css">
+	<link class="ui" rel="stylesheet" href="packaged/css/semantic.min.css" type="text/css" >
+	<link class="ui" rel="stylesheet" href="signup.css" type="text/css" >
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="packaged/javascript/semantic.min.js"></script>
+</head>
+<body>
+	<div class="ui three column page grid"> 
+		<div class="column"></div>
+		<div class="column">
+			<div class="ui fluid form segment">
+				<h3 class="ui header">Start your safe journey with us!</h3>
+				<div class="field register-switch">
+			      <input type="radio" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
+			      <label for="sex_f" class="register-switch-label">Generate Xnym</label>
+			      <input type="radio" name="sex" value="M" id="sex_m" class="register-switch-input">
+			      <label for="sex_m" class="register-switch-label">Use custom</label>
+    			</div>
+				<div class="field">
+				<label>Xnym</label>
+				<input placeholder="Click above to generate one or fill yours" type="text">
+				</div>
+				<div class="field">
+				<label>Password</label>
+				<input placeholder="8 characters or more (or even a passphrase!)" type="password">
+				</div>
+				<div class="inline field">
+				<div class="ui checkbox">
+				  <input id="conditions" type="checkbox">
+				  <label for="conditions">By creating an account, I accept Merklerock's Terms of Service and Privacy Policy.</label>
+				</div>
+				</div>
+				<div class="ui buttons">
+					<div class="ui purple submit button">Create my account</div>
+					<div class="or"></div>
+					<div class="ui button">&nbsp;Cancel</div>
+				</div>
+				<div class="ui message">
+				  <p>
+				  	<i class="info icon"></i>
+					Note: You'll be required to confirm your registration. To do that, you have to send a random generated amount to your xnym within three days and we'll automatically validate your account. 
+				  </p>
+				</div>
+			</div>
+	  	</div>
+	  	<div class="column"></div>
+	</div>
+</body>
+</html>
